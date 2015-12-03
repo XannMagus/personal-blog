@@ -1,4 +1,3 @@
-# angular-seed — the seed for AngularJS apps
 # Purpose
 It's just a personal project to create my own blog using AngularJS. It's mostly there for me to experiment.
 
