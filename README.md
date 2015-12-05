@@ -25,7 +25,7 @@ Afterwards, I should be able to update the content without ever going "backstage
 ## 3. Categories or tags
 
 I want the content to be easy to sort and navigate. I'll probably include some kind of tags or categories to the articles.
-This implies that the content will have meta-datas, including author, time of update, etc. Plus, there will be filters, like NSFW or some such.
+This implies that the content will have meta-data, including author, time of update, etc. Plus, there will be filters, like NSFW or some such.
 
 ## 4. Comments
 
