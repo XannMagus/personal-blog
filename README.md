@@ -37,6 +37,14 @@ I'll probably use a third-party tool to take care of this for me, since I want s
 Of course, I don't want anyone to be able to modify my articles or create new ones. 
 Therefore, the admin area, where I'll create and update the content, should be secured one way or another.
 
+# Coding guidelines
+
+1. Unit tests should be written before any code.
+2. An issue is not considered resolved until all code involved is tested, unit and end to end.
+3. I'm still not sure wether to adopt the phonecat demo structure (a folder for js, partials, tests, css, etc) or the angular-seed (a folder for each submodule of the app). I currently am organising stuff in the phonecat way, albeit a little tweaked.
+4. This project is the front-end of the site and is agnostic with regards to the back-end. An API interface will be defined, and whatever back-end I use shall respect this REST interface. Front code should not change regardless.
+5. Respect the AngularJS philosophy as much as possible. To me, for the time being, it means data driven code, highly testable, modulable, and independent of the data-provider.
+
 [![Stories in Ready](https://badge.waffle.io/XannMagus/personal-blog.png?label=ready&title=Ready)](https://waffle.io/XannMagus/personal-blog)
 [![Stories in Progress](https://badge.waffle.io/XannMagus/personal-blog.png?label=In%20Progress&title=In%20Progress)](https://waffle.io/XannMagus/personal-blog)
 [![Build Status](https://travis-ci.org/XannMagus/personal-blog.svg?branch=master)](https://travis-ci.org/XannMagus/personal-blog)
