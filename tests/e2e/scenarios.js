@@ -6,7 +6,7 @@ describe('My blog', function() {
 
     describe('Read article view', function() {
         beforeEach(function () {
-            browser.get('app/index.html#/read/le-feminisme-et-moi-1');
+            browser.get('index.html#/read/le-feminisme-et-moi-1');
         });
 
         it('should display Le feminisme et moi article', function() {
