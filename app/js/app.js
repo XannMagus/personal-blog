@@ -8,5 +8,5 @@ angular.module('blog', [
   'hc.marked'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/view1'});
+  $routeProvider.otherwise({redirectTo: '/read/le-feminisme-et-moi-1'});
 }]);
