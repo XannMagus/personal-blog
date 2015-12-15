@@ -4,7 +4,7 @@
 angular.module('blog', [
   'ngRoute',
   'blog.read',
-  'blog.version',
+  'blog.index',
   'hc.marked'
 ]).
 config(['$routeProvider', function($routeProvider) {
