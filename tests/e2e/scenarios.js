@@ -6,7 +6,7 @@ describe('My blog', function() {
 
     describe('Read article view', function() {
         beforeEach(function () {
-            browser.get('index.html#/read/le-feminisme-et-moi-1');
+            browser.get('#/read/le-feminisme-et-moi-1');
         });
 
         it('should display Le feminisme et moi article', function() {
@@ -15,7 +15,7 @@ describe('My blog', function() {
     });
 
     it('should automatically redirect to /read/le-feminisme-et-moi-1 when location hash/fragment is empty', function() {
-        browser.get('index.html');
+        browser.get('');
         expect(browser.getLocationAbsUrl()).toMatch("/read/le-feminisme-et-moi-1");
     });
 
